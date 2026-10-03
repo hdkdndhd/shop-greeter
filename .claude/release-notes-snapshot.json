@@ -14,5 +14,5 @@
       "latest_seen": "September 30, 2026 — Claude Sonnet 4.5 deprecation announced"
     }
   },
-  "note": "Hourly Routine compares fresh fetches against these 'latest_seen' markers. If the topmost dated entry differs, everything newer than the stored marker is treated as new, summarized, and appended to task-feature-playbook.md (Section A if KDP-related, Section B otherwise — NOT filtered out just because it's non-KDP). After each check, this file's latest_seen fields are updated regardless of whether anything new was found."
+  "note": "Hourly Routine compares fresh fetches against these 'latest_seen' markers. If the topmost dated entry differs, everything newer than the stored marker is treated as new, summarized, and appended to task-feature-playbook.md. After each check, this file's latest_seen fields are updated regardless of whether anything new was found."
 }
