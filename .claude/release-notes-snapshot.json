@@ -1,0 +1,18 @@
+{
+  "last_checked": "2026-10-03T00:00:00Z",
+  "sources": {
+    "claude_code_changelog": {
+      "url": "https://code.claude.com/docs/en/changelog",
+      "latest_seen": "2.1.288 — October 2, 2026"
+    },
+    "claude_apps_release_notes": {
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "latest_seen": "September 28, 2026 — Claude Sonnet 5.5 launch"
+    },
+    "claude_platform_release_notes": {
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "latest_seen": "September 30, 2026 — Claude Sonnet 4.5 deprecation announced"
+    }
+  },
+  "note": "Hourly Routine compares fresh fetches against these 'latest_seen' markers. If the topmost dated entry differs, everything newer than the stored marker is treated as new, summarized, and appended to kdp-task-feature-playbook.md if relevant to a KDP workflow. After each check, this file's latest_seen fields are updated regardless of whether anything new was found."
+}
