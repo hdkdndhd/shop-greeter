@@ -1,12 +1,14 @@
-# KDP Business — Task → Feature Playbook
+# Task → Feature Playbook (Har Kaam ke liye — KDP ho ya na ho)
 
-**Kaam kaise karta hai ye document:** Har row ek "task" hai (jo kaam aapko karna hai), uske saamne likha hai kaunsa Claude feature/skill use hoga, kitne feature combine karna padenge, aur kyun. Jab bhi aap naya kaam poocho jo yaha list nahi hai, Claude yahi tarah se jawab dega aur neeche ek nayi row add kar dega — ye ek growing reference manual hai.
+**Kaam kaise karta hai ye document:** Har row ek "task" hai (jo kaam karna hai — kisi bhi domain mein, KDP ho ya bilkul alag), uske saamne likha hai kaunsa Claude feature/skill/tool use hoga, kitne feature combine karna padenge, aur kyun. Jab bhi naya kaam poocha jaye jo yaha list nahi hai, Claude yahi tarah se jawab dega aur neeche ek nayi row add kar dega — ye ek growing, general-purpose reference manual hai, sirf KDP tak limited nahi.
 
 **Last updated:** 2026-10-03
 
 **Format:** Task | Feature(s) zaroori | Kitne feature chahiye | Kyun (reasoning)
 
 ---
+
+## SECTION A — KDP Business tasks
 
 ## 1. Amazon Keyword / Niche Research ("Amazon pe konse keyword trending hai")
 
@@ -84,4 +86,10 @@
 
 ---
 
-*(Naye tasks yahan automatically add honge jaise jaise naye kaam poochhe jaayenge, ya jab hourly release-notes watch naya relevant Claude feature detect kare.)*
+## SECTION B — General / Non-KDP tasks
+
+*(Abhi khaali hai. Jaise hi koi non-KDP kaam poocha jayega — coding, writing, research, design, kuch bhi — uska entry yahan is section mein add hoga, Section A jaisi hi format mein.)*
+
+---
+
+*(Naye tasks (KDP ya non-KDP, kisi bhi domain ke) yahan automatically add honge jaise jaise naye kaam poochhe jaayenge, ya jab hourly release-notes watch naya relevant Claude feature detect kare.)*
