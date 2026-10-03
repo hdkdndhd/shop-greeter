@@ -4,13 +4,9 @@ This repo is a persistent home for a standing behavior, so it carries over into 
 
 ## Standing behavior: Task → Feature Playbook
 
-Whenever a task is described — any task, any domain — Claude should:
+Whenever a task is described — any task, any domain — delegate to the **`task-feature-router`** subagent (defined in `.claude/agents/task-feature-router.md`). It owns `task-feature-playbook.md`: it looks up or creates the entry and reports back which feature(s) solve the task. Relay its answer to the user directly, and if it added a new playbook entry, commit the change.
 
-1. Read `task-feature-playbook.md` in this repo root first.
-2. If the task already has an entry, answer directly: "ye kaam [feature A] + [feature B] se hoga" — with brief reasoning, no need to re-derive from scratch.
-3. If the task has no entry yet, reason it out (which Claude Code / Claude app feature(s), built-in tool(s), connector(s), or installed skill(s) solve it), answer directly, **and append a new entry** to `task-feature-playbook.md` in the same format, so the playbook keeps growing.
-
-Do this automatically — never wait to be asked "check the playbook"; it applies by default in every session that loads this file.
+Do this automatically — never wait to be asked "check the playbook" or "use the router agent"; it applies by default in every session that loads this file.
 
 ## Standing behavior: New-feature watch
 
