@@ -1,9 +1,9 @@
 {
-  "last_checked": "2026-10-03T23:11:42Z",
+  "last_checked": "2026-10-04T00:11:44Z",
   "sources": {
     "claude_code_changelog": {
       "url": "https://code.claude.com/docs/en/changelog",
-      "latest_seen": "2.1.288 — October 2, 2026"
+      "latest_seen": "2.1.289 — October 3, 2026"
     },
     "claude_apps_release_notes": {
       "url": "https://support.claude.com/en/articles/12138966-release-notes",
